@@ -5,11 +5,15 @@ return {
   -- lang packs
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.cmake" },
-  { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.python-ruff" },
-  
+
+  -- front-end related
+  { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.typescript" },
+
   -- functionalities
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },

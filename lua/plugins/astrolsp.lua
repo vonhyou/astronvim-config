@@ -39,6 +39,13 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      tailwindcss = {
+        filetypes = { "astro" },
+      },
+
+      html = {
+        filetypes = { "astro" },
+      },
     },
     -- customize how language servers are attached
     handlers = {
