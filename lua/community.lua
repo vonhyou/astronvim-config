@@ -8,6 +8,10 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
 
+  -- typst, markdown and latex
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
+  { import = "astrocommunity.pack.typst" },
+
   -- front-end related
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.tailwindcss" },
