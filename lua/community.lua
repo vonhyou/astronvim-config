@@ -26,4 +26,5 @@ return {
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.completion.avante-nvim" },
 }
