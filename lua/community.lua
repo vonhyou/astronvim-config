@@ -6,6 +6,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.lua" },
 
   -- typst, markdown and latex
